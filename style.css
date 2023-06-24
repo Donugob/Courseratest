@@ -1,0 +1,60 @@
+html, body { 
+   margin: 0; 
+   padding: 0; 
+ } 
+  
+ header { 
+   text-align: center; 
+ } 
+  
+ header h1 { 
+   margin: 0; 
+ } 
+  
+ .container { 
+   max-width: 1000px; 
+   margin: 0 auto; 
+   padding: 20px; 
+   overflow: hidden; 
+   position: relative; 
+ } 
+  
+ .section { 
+   border: 1px solid black; 
+   background-color: #F2F2F2; 
+   box-sizing: border-box; 
+   float: left; 
+   width: 33.33%; 
+   padding: 20px; 
+   margin-bottom: 20px; 
+   position: relative; 
+ } 
+  
+ .section-title { 
+   position: absolute; 
+   top: 0; 
+   right: 0; 
+   margin: 0; 
+   padding: 10px; 
+   background-color: #FFC107; 
+   color: #FFF; 
+ } 
+  
+ /* Tablet View */ 
+ @media (min-width: 768px) and (max-width: 991px) { 
+   .section { 
+     width: 50%; 
+   } 
+  
+   .section:nth-child(3) { 
+     width: 100%; 
+     clear: both; 
+   } 
+ } 
+  
+ /* Mobile View */ 
+ @media (max-width: 767px) { 
+   .section { 
+     width: 100%; 
+   } 
+ }
