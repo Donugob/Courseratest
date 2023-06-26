@@ -1,4 +1,4 @@
-html, body { 
+ body { 
    margin: 0; 
    padding: 0;
    background-color:maroon;
@@ -6,7 +6,7 @@ html, body {
   
  header { 
    text-align: center;
-   text-color: white;
+   background-color: white;
  } 
   
  header h1 { 
